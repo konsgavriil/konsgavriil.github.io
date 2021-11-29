@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Konstantinos Gavriilidis - Personal Blog"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Konstantinos Gavriilidis"
+description              : &description "Natural Language Processing | Explainable Autonomy | Machine learning"
+url                      : https://konsgavriil.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=f6Rj22cAAAAJ&hl=en"
-  email            : "kg47 [at] hw [dot] ac [dot] uk"
+  email            : "kg47@hw.ac.uk"
   researchgate     :  
   uri              : 
   bitbucket        :
@@ -96,24 +96,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/konsgavriil"
+  github           : "konsgavriil"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/konsgavriil/"
+  linkedin         : "konsgavriil"
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/5166380/konstantinos-gavriilidis"
+  stackoverflow    : "5166380/konstantinos-gavriilidis"
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/konsgavriil"
+  twitter          : "konsgavriil"
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UCRRdAe0o0J342PzDkA9afYg"
+  youtube          : 
   wikipedia        :
 
 
