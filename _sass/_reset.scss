@@ -8,6 +8,10 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
+  background-image:
+    radial-gradient(1200px circle at 8% -10%, rgba($primary-color, 0.12), transparent 55%),
+    radial-gradient(900px circle at 95% 8%, rgba($info-color, 0.12), transparent 45%),
+    linear-gradient(180deg, rgba(248, 250, 252, 0.9), rgba(246, 248, 251, 0.6));
   font-size: 16px;
 
   @include breakpoint($medium) {
@@ -26,12 +30,12 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: #000;
+  background: $primary-color;
 }
 
 ::selection {
   color: #fff;
-  background: #000;
+  background: $primary-color;
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */

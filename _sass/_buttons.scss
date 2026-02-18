@@ -10,20 +10,23 @@
   /* default button */
   display: inline-block;
   margin-bottom: 0.25em;
-  padding: 0.5em 1em;
+  padding: 0.6em 1.2em;
   color: #fff !important;
   font-family: $sans-serif;
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
-  background-color: $primary-color;
+  background: linear-gradient(135deg, $primary-color, mix($info-color, #fff, 10%));
   border: 0 !important;
   border-radius: $border-radius;
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.25);
   cursor: pointer;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background: linear-gradient(135deg, mix($primary-color, #000, 5%), mix($info-color, #000, 5%));
+    transform: translateY(-1px);
+    box-shadow: 0 16px 32px rgba(37, 99, 235, 0.3);
   }
 
   .icon {
@@ -51,10 +54,12 @@
     color: $gray !important;
     border: 1px solid $light-gray !important; /* override*/
     background-color: #fff;
+    box-shadow: $box-shadow;
 
     &:hover {
       color: #fff !important;
       border-color: $gray;
+      background: linear-gradient(135deg, $primary-color, $info-color);
     }
   }
 
@@ -63,6 +68,7 @@
   &--light-outline {
     border: 1px solid #fff !important; /* override*/
     background-color: transparent;
+    box-shadow: none;
   }
 
   /* information */

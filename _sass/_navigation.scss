@@ -175,14 +175,20 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 2.75rem;
 
   a {
     display: block;
-    margin: 0 1rem;
-    padding: 0.5rem 0;
+    margin: 0 0.35rem;
+    padding: 0.6rem 0.2rem;
     color: $masthead-link-color;
     text-decoration: none;
+    font-weight: 500;
+    letter-spacing: -0.01em;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -193,20 +199,25 @@
     position: absolute;
     height: 100%;
     right: 0;
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
     border: 0;
     outline: none;
     background-color: $primary-color;
     color: #fff;
+    border-radius: 999px;
+    box-shadow: $box-shadow;
     cursor: pointer;
   }
 
   .visible-links {
-    display: table;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 
     li {
-      display: table-cell;
-      vertical-align: middle;
+      display: flex;
+      align-items: center;
 
       &:first-child {
         font-weight: bold;
@@ -230,15 +241,16 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        bottom: -0.2rem;
+        height: 3px;
+        background: linear-gradient(90deg, $primary-color, $info-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
                 transform: scaleX(0); /* hide*/
+        transform-origin: left;
       }
 
       &:hover:before {
@@ -258,7 +270,7 @@
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: #fff;
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: $box-shadow;
 
     a {
       margin: 0;

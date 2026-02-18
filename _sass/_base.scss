@@ -13,7 +13,10 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.65;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -23,26 +26,27 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
-  line-height: 1.2;
+  line-height: 1.15;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: $type-size-2;
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: $type-size-3;
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 h4 {
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 }
 
 h5 {
@@ -50,7 +54,7 @@ h5 {
 }
 
 h6 {
-  font-size: $type-size-6;
+  font-size: $type-size-7;
 }
 
 small, .small {
@@ -97,7 +101,7 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  border-left: 0.25em solid mix($primary-color, #fff, 10%);
 
   cite {
     font-style: italic;
@@ -112,6 +116,11 @@ blockquote {
 /* links */
 
 a {
+  color: $link-color;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.2em;
+  text-decoration-color: rgba($primary-color, 0.35);
+
   &:focus {
     @extend %tab-focus;
   }
@@ -119,6 +128,10 @@ a {
   &:hover,
   &:active {
     outline: 0;
+  }
+
+  &:hover {
+    text-decoration-color: rgba($primary-color, 0.6);
   }
 }
 
@@ -141,7 +154,7 @@ td > code {
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
   background: $code-background-color;
-  border: 1px solid $lighter-gray;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
@@ -309,7 +322,7 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
