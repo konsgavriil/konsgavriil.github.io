@@ -140,6 +140,61 @@ body {
   border: 1px solid rgba(45, 140, 127, 0.2);
 }
 
+.logo-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(31, 42, 68, 0.08);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+}
+
+.logo-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: rgba(45, 140, 127, 0.12);
+  color: #2d8c7f;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.logo-text {
+  font-weight: 600;
+  color: #1f2a44;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 @media (max-width: 900px) {
   .home-hero {
     grid-template-columns: 1fr;

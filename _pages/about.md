@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-hero">
+<div class="home-hero reveal">
   <div class="home-hero__content">
     <p class="home-eyebrow">AI Researcher / AI Engineer</p>
     <h1>Konstantinos Gavriilidis</h1>
@@ -24,7 +24,7 @@ redirect_from:
       <div>github.com/konsgavriil</div>
     </div>
   </div>
-  <div class="home-hero__card">
+  <div class="home-hero__card reveal">
     <h3>Focus Areas</h3>
     <ul class="focus-list">
       <li>Explainable AI for autonomous systems</li>
@@ -35,13 +35,13 @@ redirect_from:
   </div>
 </div>
 
-<div class="home-section">
+<div class="home-section reveal">
   <h2>About</h2>
   <p>Konstantinos Gavriilidis is an Artificial Intelligence Engineer and researcher specialising in explainable AI, generative AI, and autonomous systems. He recently completed a PhD in Robotics and Autonomous Systems at Heriot-Watt University, where his research focused on explainable reasoning for remote autonomous agents and transparent decision-making in mission-critical environments.</p>
   <p>His work bridges advanced AI research with real-world deployment. He has designed and evaluated large language model-based systems for human-agent interaction, developed surrogate model frameworks to interpret autonomous behaviour, and built robust evaluation pipelines to improve performance, reliability, and operator trust.</p>
 </div>
 
-<div class="home-section">
+<div class="home-section reveal">
   <h2>Selected Work</h2>
   <ul class="home-list">
     <li><strong>Enhancing Situation Awareness Through Model-based Explanation Generation</strong> - INLG 2024.</li>
@@ -50,8 +50,26 @@ redirect_from:
   </ul>
 </div>
 
-<div class="home-section">
+<div class="home-section reveal">
   <h2>Industry Experience</h2>
+  <div class="logo-row">
+    <div class="logo-card">
+      <span class="logo-mark">MA</span>
+      <span class="logo-text">MedAscend</span>
+    </div>
+    <div class="logo-card">
+      <span class="logo-mark">SB</span>
+      <span class="logo-text">SeeByte</span>
+    </div>
+    <div class="logo-card">
+      <span class="logo-mark">SD</span>
+      <span class="logo-text">SnapDragon</span>
+    </div>
+    <div class="logo-card">
+      <span class="logo-mark">VL</span>
+      <span class="logo-text">Veltio</span>
+    </div>
+  </div>
   <ul class="home-list">
     <li><strong>AI Engineer (Freelance)</strong> - MedAscend: evaluation and fine-tuning of LLMs for medical training agents.</li>
     <li><strong>Research Intern</strong> - SeeByte Ltd: explainability for maritime autonomy and automated reporting.</li>
@@ -60,7 +78,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="home-section home-section--cta">
+<div class="home-section home-section--cta reveal">
   <h2>Work With Me</h2>
   <p>I collaborate on research, evaluation, and deployment of transparent AI systems. If you are building AI for real-world operations, feel free to reach out.</p>
   <a class="btn" href="mailto:konsgavriil@gmail.com">Contact</a>
