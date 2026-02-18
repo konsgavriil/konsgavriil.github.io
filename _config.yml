@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=f6Rj22cAAAAJ&hl=en"
-  email            : "kg47@hw.ac.uk"
+  email            : "konsgavriil@gmail.com"
   researchgate     :  
   uri              : 
   bitbucket        :
@@ -106,10 +106,10 @@ author:
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "5166380/konstantinos-gavriilidis"
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "konsgavriil"
+  twitter          :
   vine             :
   weibo            :
   xing             :
