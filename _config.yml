@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Konstantinos Gavriilidis - Personal Blog"
+title                    : "Konstantinos Gavriilidis"
 title_separator          : "-"
 name                     : &name "Konstantinos Gavriilidis"
-description              : &description "Natural Language Processing | Explainable Autonomy | Machine learning"
+description              : &description "Explainable AI | Generative AI | Autonomous Systems"
 url                      : https://konsgavriil.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Konstantinos Gavriilidis"
   avatar           : "KostasGavriilidis2019.jpg"
-  bio              : "PhD Candidate at Edinburgh Centre for Robotics"
+  bio              : "AI Engineer and Researcher in Explainable and Generative AI"
   location         : "Edinburgh, United Kingdom"
   employer         :
   pubmed           : 

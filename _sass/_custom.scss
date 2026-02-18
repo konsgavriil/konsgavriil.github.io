@@ -1,0 +1,148 @@
+/* ==========================================================================
+   Custom homepage and theme accents
+   ========================================================================== */
+
+body {
+  background: radial-gradient(circle at top left, rgba(45, 140, 127, 0.08), transparent 55%),
+    radial-gradient(circle at 30% 10%, rgba(31, 42, 68, 0.08), transparent 45%),
+    #f7f4ef;
+}
+
+.page__content h2 {
+  border-bottom: 1px solid rgba(31, 42, 68, 0.12);
+}
+
+.btn--outline {
+  color: $primary-color !important;
+  background: transparent;
+  border: 1px solid rgba($primary-color, 0.4) !important;
+  box-shadow: none;
+}
+
+.btn--outline:hover {
+  background: rgba($primary-color, 0.08);
+  transform: translateY(-1px);
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 2rem;
+  padding: 2.5rem;
+  border-radius: 20px;
+  background: linear-gradient(140deg, rgba(31, 42, 68, 0.92), rgba(18, 28, 52, 0.96));
+  color: #f8fafc;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.2);
+}
+
+.home-hero h1 {
+  margin-bottom: 0.4rem;
+  font-size: clamp(2.2rem, 3vw, 3.2rem);
+  color: #f8fafc;
+}
+
+.home-hero__content p {
+  color: rgba(248, 250, 252, 0.9);
+}
+
+.home-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: rgba(248, 250, 252, 0.7);
+  margin-bottom: 0.5rem;
+}
+
+.home-lead {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  max-width: 36rem;
+}
+
+.home-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-hero__meta {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: rgba(248, 250, 252, 0.7);
+}
+
+.home-hero__card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(248, 250, 252, 0.12);
+  border-radius: 16px;
+  padding: 1.75rem;
+}
+
+.home-hero__card h3 {
+  margin-top: 0;
+  color: #f8fafc;
+}
+
+.focus-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.focus-list li {
+  margin-bottom: 0.6rem;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.focus-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2d8c7f;
+}
+
+.home-section {
+  margin-top: 3rem;
+}
+
+.home-section h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+.home-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.home-list li {
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(31, 42, 68, 0.08);
+}
+
+.home-section--cta {
+  padding: 2rem;
+  border-radius: 16px;
+  background: #e3eee9;
+  border: 1px solid rgba(45, 140, 127, 0.2);
+}
+
+@media (max-width: 900px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+}
