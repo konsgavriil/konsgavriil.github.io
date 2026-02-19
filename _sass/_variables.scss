@@ -47,24 +47,24 @@ $type-size-8                : 0.75em;   // ~13px
    Colors
    ========================================================================== */
 
-$gray                       : #64748b;
-$dark-gray                  : #0f172a;
-$darker-gray                : #0b1220;
+$gray                       : #6b7280;
+$dark-gray                  : #111827;
+$darker-gray                : #0b1020;
 $light-gray                 : mix(#fff, $gray, 70%);
 $lighter-gray               : mix(#fff, $gray, 92%);
 
-$body-color                 : #f8fafc;
-$background-color           : #f6f8fb;
-$code-background-color      : #f1f5f9;
+$body-color                 : #f5f7fa;
+$background-color           : #f5f7fa;
+$code-background-color      : #eef2f6;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : mix(#fff, $gray, 85%);
 
-$primary-color              : #2563eb;
-$success-color              : #16a34a;
-$warning-color              : #f59e0b;
-$danger-color               : #ef4444;
-$info-color                 : #0ea5e9;
+$primary-color              : #2d8c7f;
+$success-color              : #22a06b;
+$warning-color              : #d97706;
+$danger-color               : #dc2626;
+$info-color                 : #0f766e;
 
 /* brands */
 $behance-color              : #1769FF;
