@@ -87,6 +87,29 @@ body {
   border-bottom: 1px solid rgba(31, 42, 68, 0.12);
 }
 
+.cv-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 1.5rem;
+  background: #ffffff;
+  border: 1px solid rgba(31, 42, 68, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 16px 45px rgba(15, 23, 42, 0.08);
+}
+
+.cv-table__cell {
+  padding: 2rem 2.25rem;
+}
+
+.cv-table__cell h2 {
+  margin-top: 2rem;
+}
+
+.cv-table__cell h2:first-of-type {
+  margin-top: 0;
+}
+
 .btn--outline {
   color: $primary-color !important;
   background: transparent;
