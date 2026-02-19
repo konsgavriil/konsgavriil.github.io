@@ -178,6 +178,7 @@
   background: transparent;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   padding-right: 2.75rem;
 
@@ -213,6 +214,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.75rem;
 
     li {
