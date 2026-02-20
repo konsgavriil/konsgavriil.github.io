@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
@@ -12,7 +12,7 @@ redirect_from:
 [Download CV (PDF)](/files/konstantinos_gavriilidis_cv.pdf)
 
 <div class="cv-table">
-  <div class="cv-table__cell" markdown="1">
+<div class="cv-table__cell" markdown="1">
 
 ## Profile
 
@@ -77,5 +77,5 @@ Artificial Intelligence Engineer with expertise in advanced AI research and indu
 - PhD Scholarship - Edinburgh Centre for Robotics, SeeByte Ltd and SRPe | 2019 - 2025
 - MSc Scholarship - Heriot-Watt University, DataLab Innovation Centre | 2017 - 2018
 
-  </div>
+</div>
 </div>

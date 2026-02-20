@@ -36,6 +36,13 @@
   }
 }
 
+.archive--no-sidebar {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+    @include prefix(0);
+  }
+}
+
 .archive__item {
   background: rgba(255, 255, 255, 0.85);
   border: 1px solid $border-color;
