@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 1.2em;
   padding-left: 1em;
   padding-right: 1em;
   animation: fade-up 0.45s both;
@@ -54,8 +54,13 @@
 .page__content {
 
   h2 {
+    margin-top: 1.35em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+  }
+
+  h2:first-child {
+    margin-top: 0;
   }
 
   p, li, dl {

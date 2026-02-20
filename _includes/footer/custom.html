@@ -1,3 +1,16 @@
 <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+<div class="footer-links">
+	<span>Contact:</span>
+	<a href="mailto:{{ site.author.email }}">Email</a>
+	<span aria-hidden="true">·</span>
+	<a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+	<span aria-hidden="true">·</span>
+	<a href="https://github.com/{{ site.author.github }}">GitHub</a>
+	<span aria-hidden="true">·</span>
+	<a href="/sitemap/">Sitemap</a>
+	{% if site.author.location %}
+	<span aria-hidden="true">·</span>
+	<span>{{ site.author.location }}</span>
+	{% endif %}
+</div>
 <!-- end custom footer snippets -->

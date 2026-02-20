@@ -12,16 +12,20 @@ redirect_from:
   <div class="home-hero__content">
     <p class="home-eyebrow">AI Researcher / AI Engineer</p>
     <h1>Konstantinos Gavriilidis</h1>
-    <p class="home-lead">I build explainable, reliable AI systems for real-world autonomy, spanning generative AI, NLP, and human-agent interaction.</p>
+    <p class="home-lead">I build explainable, reliable AI systems for real-world autonomy, covering generative AI, NLP, and human-agent interaction.</p>
     <div class="home-hero__actions">
       <a class="btn" href="/files/konstantinos_gavriilidis_cv.pdf">Download CV</a>
       <a class="btn btn--outline" href="/publications/">Publications</a>
     </div>
+    <div class="home-stats">
+      <div><span>PhD</span> Robotics and Autonomous Systems</div>
+      <div><span>Focus</span> Explainable AI and LLMs</div>
+      <div><span>Based</span> Edinburgh, UK</div>
+    </div>
     <div class="home-hero__meta">
-      <div>Edinburgh, United Kingdom</div>
-      <div>konsgavriil@gmail.com</div>
-      <div>linkedin.com/in/konsgavriil</div>
-      <div>github.com/konsgavriil</div>
+      <div><a href="mailto:konsgavriil@gmail.com">konsgavriil@gmail.com</a></div>
+      <div><a href="https://linkedin.com/in/konsgavriil">linkedin.com/in/konsgavriil</a></div>
+      <div><a href="https://github.com/konsgavriil">github.com/konsgavriil</a></div>
     </div>
   </div>
   <div class="home-hero__card reveal">
@@ -37,17 +41,17 @@ redirect_from:
 
 <div class="home-section reveal">
   <h2>About</h2>
-  <p>Konstantinos Gavriilidis is an Artificial Intelligence Engineer and researcher specialising in explainable AI, generative AI, and autonomous systems. He recently completed a PhD in Robotics and Autonomous Systems at Heriot-Watt University, where his research focused on explainable reasoning for remote autonomous agents and transparent decision-making in mission-critical environments.</p>
-  <p>His work bridges advanced AI research with real-world deployment. He has designed and evaluated large language model-based systems for human-agent interaction, developed surrogate model frameworks to interpret autonomous behaviour, and built robust evaluation pipelines to improve performance, reliability, and operator trust.</p>
+  <p>Konstantinos Gavriilidis is an Artificial Intelligence Engineer and researcher specialising in explainable AI, generative AI, and autonomous systems. His work bridges advanced research with deployment, including LLM-based human-agent interaction, surrogate model explainability, and evaluation pipelines that improve performance and trust.</p>
 </div>
 
 <div class="home-section reveal">
   <h2>Selected Work</h2>
   <ul class="home-list">
-    <li><strong>Enhancing Situation Awareness Through Model-based Explanation Generation</strong> - INLG 2024.</li>
+    <li><strong>Enhancing Situation Awareness Through Model-Based Explanation Generation</strong> - INLG 2024.</li>
     <li><strong>A Surrogate Model Framework for Explainable Autonomous Behaviour</strong> - ICRA 2023.</li>
     <li><strong>Plan Verbalisation for Robots Acting in Dynamic Environments</strong> - ICAPS 2021 Workshop.</li>
   </ul>
+  <a class="btn btn--outline" href="/publications/">View all publications</a>
 </div>
 
 <div class="home-section reveal">
@@ -71,9 +75,9 @@ redirect_from:
     </div>
   </div>
   <ul class="home-list">
-    <li><strong>AI Engineer (Freelance)</strong> - MedAscend: evaluation and fine-tuning of LLMs for medical training agents.</li>
+    <li><strong>AI Engineer (Freelance)</strong> - MedAscend: LLM evaluation and fine-tuning for medical training agents.</li>
     <li><strong>Research Intern</strong> - SeeByte Ltd: explainability for maritime autonomy and automated reporting.</li>
-    <li><strong>Machine Learning Engineer</strong> - SnapDragon Monitoring: production deep learning for classification and counterfeit detection.</li>
+    <li><strong>Machine Learning Engineer</strong> - SnapDragon Monitoring: production classification and counterfeit detection.</li>
     <li><strong>Software Developer Intern</strong> - Veltio Ltd: Docker tooling and deployment automation.</li>
   </ul>
 </div>
