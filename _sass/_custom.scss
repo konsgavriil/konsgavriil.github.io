@@ -120,6 +120,16 @@ body {
   margin-top: 0;
 }
 
+@include breakpoint(max-width $small) {
+  .cv-table {
+    margin-top: 0.75rem;
+  }
+
+  .cv-table__cell {
+    padding: 1.4rem 1.25rem;
+  }
+}
+
 .btn--outline {
   color: $primary-color !important;
   background: transparent;
