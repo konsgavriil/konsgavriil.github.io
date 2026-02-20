@@ -5,6 +5,15 @@
 .archive {
   margin-bottom: 2em;
 
+  > :first-child {
+    margin-top: 0;
+  }
+
+  h2,
+  h3 {
+    margin-top: 1.1em;
+  }
+
   @include breakpoint($medium) {
     @include span(12 of 12);
   }
@@ -53,6 +62,7 @@
 }
 
 .archive__item-title {
+  margin-top: 0;
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
@@ -103,6 +113,8 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 1.25rem;
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }

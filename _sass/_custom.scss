@@ -100,7 +100,7 @@ body {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   background: #ffffff;
   border: 1px solid rgba(31, 42, 68, 0.08);
   border-radius: 18px;
@@ -112,7 +112,8 @@ body {
 }
 
 .cv-table__cell h2 {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .cv-table__cell h2:first-of-type {
