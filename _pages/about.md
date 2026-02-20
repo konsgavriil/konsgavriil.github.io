@@ -2,7 +2,7 @@
 permalink: /
 title: "Konstantinos Gavriilidis"
 excerpt: "AI Researcher and Engineer"
-author_profile: false
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
