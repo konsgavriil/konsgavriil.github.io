@@ -20,8 +20,8 @@
           animation: fade-up 0.45s both;
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
-  background: linear-gradient(180deg, rgba(248, 250, 252, 0.9), rgba(236, 242, 248, 0.9));
-  border-top: 1px solid $border-color;
+            background: linear-gradient(180deg, rgba(2, 6, 23, 0.95), rgba(8, 15, 28, 0.98));
+            border-top: 1px solid rgba(148, 163, 184, 0.2);
 
   footer {
     @include clearfix;
@@ -49,7 +49,7 @@
   .fab,
   .far,
   .fal {
-    color: mix(#fff, $gray, 15%);
+    color: #94a3b8;
   }
 }
 
