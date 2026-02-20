@@ -14,18 +14,13 @@ redirect_from:
     <h1>Konstantinos Gavriilidis</h1>
     <p class="home-lead">I build explainable, reliable AI systems for real-world autonomy, covering generative AI, NLP, and human-agent interaction.</p>
     <div class="home-hero__actions">
-      <a class="btn" href="/files/konstantinos_gavriilidis_cv.pdf">Download CV</a>
-      <a class="btn btn--outline" href="/publications/">Publications</a>
+      <a class="btn" href="/publications/">Publications</a>
+      <a class="btn btn--outline" href="/portfolio/">Portfolio</a>
     </div>
     <div class="home-stats">
       <div><span>PhD</span> Robotics and Autonomous Systems</div>
       <div><span>Focus</span> Explainable AI and LLMs</div>
       <div><span>Based</span> Edinburgh, UK</div>
-    </div>
-    <div class="home-hero__meta">
-      <div><a href="mailto:konsgavriil@gmail.com">konsgavriil@gmail.com</a></div>
-      <div><a href="https://linkedin.com/in/konsgavriil">linkedin.com/in/konsgavriil</a></div>
-      <div><a href="https://github.com/konsgavriil">github.com/konsgavriil</a></div>
     </div>
   </div>
   <div class="home-hero__card reveal">
@@ -42,6 +37,44 @@ redirect_from:
 <div class="home-section reveal">
   <h2>About</h2>
   <p>Konstantinos Gavriilidis is an Artificial Intelligence Engineer and researcher specialising in explainable AI, generative AI, and autonomous systems. His work bridges advanced research with deployment, including LLM-based human-agent interaction, surrogate model explainability, and evaluation pipelines that improve performance and trust.</p>
+</div>
+
+<div class="home-section reveal">
+  <h2>Core Skills</h2>
+  <div class="skills-grid">
+    <div class="skills-group">
+      <h3>ML and Data</h3>
+      <ul>
+        <li>Python, SQL, data pipelines</li>
+        <li>PyTorch, scikit-learn</li>
+        <li>Feature engineering, evaluation</li>
+      </ul>
+    </div>
+    <div class="skills-group">
+      <h3>Generative AI</h3>
+      <ul>
+        <li>LLMs, fine-tuning, PEFT</li>
+        <li>RAG, LangChain, agents</li>
+        <li>Guardrails, prompt design</li>
+      </ul>
+    </div>
+    <div class="skills-group">
+      <h3>MLOps</h3>
+      <ul>
+        <li>Docker, Kubernetes</li>
+        <li>CI/CD, deployment</li>
+        <li>Cloud: AWS, Azure, GCP</li>
+      </ul>
+    </div>
+    <div class="skills-group">
+      <h3>Responsible AI</h3>
+      <ul>
+        <li>Explainability: SHAP, LIME</li>
+        <li>Bias and fairness audits</li>
+        <li>Governance and QA</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <div class="home-section reveal">
@@ -80,6 +113,24 @@ redirect_from:
     <li><strong>Machine Learning Engineer</strong> - SnapDragon Monitoring: production classification and counterfeit detection.</li>
     <li><strong>Software Developer Intern</strong> - Veltio Ltd: Docker tooling and deployment automation.</li>
   </ul>
+</div>
+
+<div class="home-section reveal">
+  <h2>Quick Impact</h2>
+  <div class="impact-grid">
+    <div class="impact-card">
+      <h3>Education</h3>
+      <p>PhD in Robotics and Autonomous Systems, Heriot-Watt University.</p>
+    </div>
+    <div class="impact-card">
+      <h3>Certifications</h3>
+      <p>Hugging Face MCP Course, AI Agents Course, Stanford ML (Coursera).</p>
+    </div>
+    <div class="impact-card">
+      <h3>Awards</h3>
+      <p>Best Poster Award (SRPe Conference), PhD Scholarship (ECR/SeeByte/SRPe).</p>
+    </div>
+  </div>
 </div>
 
 <div class="home-section home-section--cta reveal">

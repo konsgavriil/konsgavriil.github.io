@@ -10,10 +10,10 @@ body {
 
  .sidebar .author-card {
   background: rgba(15, 23, 42, 0.9);
-  border: 1px solid rgba(148, 163, 184, 0.15);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: 18px;
   padding: 1.25rem;
-  box-shadow: 0 12px 28px rgba(2, 6, 23, 0.35);
+  box-shadow: 0 24px 50px rgba(2, 6, 23, 0.5);
 }
 
 .sidebar .author-card__media img,
@@ -23,8 +23,8 @@ body {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: 16px;
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.45);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 18px 36px rgba(2, 6, 23, 0.6);
 }
 
 .sidebar .author-card__body {
@@ -64,7 +64,7 @@ body {
   gap: 0.5rem;
   padding: 0.45rem 0.65rem;
   border-radius: 10px;
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   background: rgba(15, 23, 42, 0.7);
   font-size: 0.9rem;
   text-decoration: none;
@@ -94,9 +94,9 @@ body {
   border-spacing: 0;
   margin-top: 1rem;
   background: rgba(15, 23, 42, 0.9);
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: 18px;
-  box-shadow: 0 14px 34px rgba(2, 6, 23, 0.45);
+  box-shadow: 0 22px 50px rgba(2, 6, 23, 0.55);
 }
 
 .cv-table__cell {
@@ -142,7 +142,7 @@ body {
   border-radius: 20px;
   background: linear-gradient(140deg, rgba(15, 23, 42, 0.94), rgba(8, 15, 28, 0.98));
   color: #f8fafc;
-  box-shadow: 0 16px 40px rgba(2, 6, 23, 0.5);
+  box-shadow: 0 28px 70px rgba(2, 6, 23, 0.65);
 }
 
 .home-hero h1 {
@@ -211,7 +211,7 @@ body {
 
 .home-hero__card {
   background: rgba(2, 6, 23, 0.5);
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: 16px;
   padding: 1.4rem;
 }
@@ -253,6 +253,65 @@ body {
   font-size: 1.6rem;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skills-group {
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 12px 24px rgba(2, 6, 23, 0.45);
+}
+
+.skills-group h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+  color: #f8fafc;
+}
+
+.skills-group ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.skills-group li {
+  margin-bottom: 0.35rem;
+  color: #e2e8f0;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.impact-card {
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 12px 24px rgba(2, 6, 23, 0.45);
+}
+
+.impact-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #f8fafc;
+}
+
+.impact-card p {
+  margin: 0;
+  color: #e2e8f0;
+}
+
 .home-list {
   list-style: none;
   padding: 0;
@@ -265,16 +324,16 @@ body {
   padding: 0.85rem 1rem;
   border-radius: 12px;
   background: rgba(15, 23, 42, 0.8);
-  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.35);
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.45);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   color: #e2e8f0;
 }
 
 .home-section--cta {
   padding: 2rem;
   border-radius: 16px;
-  background: rgba(15, 23, 42, 0.85);
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  background: #e3eee9;
+  border: 1px solid rgba(45, 140, 127, 0.2);
 }
 
 .logo-row {
@@ -291,8 +350,8 @@ body {
   padding: 0.9rem 1rem;
   border-radius: 14px;
   background: rgba(15, 23, 42, 0.85);
-  border: 1px solid rgba(148, 163, 184, 0.16);
-  box-shadow: 0 6px 16px rgba(2, 6, 23, 0.4);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 12px 24px rgba(2, 6, 23, 0.5);
 }
 
 .logo-mark {
