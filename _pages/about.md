@@ -15,7 +15,7 @@ redirect_from:
     <h1>Konstantinos Gavriilidis</h1>
     <p class="home-lead">I build explainable, reliable AI systems for real-world autonomy, covering generative AI, NLP, and human-agent interaction.</p>
     <div class="home-hero__actions">
-      <a class="btn" href="/publications/">Publications</a>
+      <a class="btn btn--outline" href="/publications/">Publications</a>
       <a class="btn btn--outline" href="/portfolio/">Portfolio</a>
     </div>
     <div class="home-stats">

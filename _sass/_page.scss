@@ -16,6 +16,29 @@
   }
 }
 
+@include breakpoint($large) {
+  #main {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  #main .archive,
+  #main .page {
+    float: none;
+    width: auto;
+    margin: 0;
+    flex: 1 1 auto;
+  }
+
+  #main .sidebar {
+    float: none;
+    width: 280px;
+    margin: 0;
+    flex: 0 0 280px;
+  }
+}
+
 .page {
   @include breakpoint($large) {
     @include span(9.5 of 12 last);
