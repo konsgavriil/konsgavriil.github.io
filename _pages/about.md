@@ -79,16 +79,6 @@ redirect_from:
 </div>
 
 <div class="home-section reveal">
-  <h2>Selected Work</h2>
-  <ul class="home-list">
-    <li><strong>Enhancing Situation Awareness Through Model-Based Explanation Generation</strong> - INLG 2024.</li>
-    <li><strong>A Surrogate Model Framework for Explainable Autonomous Behaviour</strong> - ICRA 2023.</li>
-    <li><strong>Plan Verbalisation for Robots Acting in Dynamic Environments</strong> - ICAPS 2021 Workshop.</li>
-  </ul>
-  <a class="btn btn--outline" href="/publications/">View all publications</a>
-</div>
-
-<div class="home-section reveal">
   <h2>Industry Experience</h2>
   <div class="logo-row">
     <div class="logo-card">
@@ -117,7 +107,7 @@ redirect_from:
 </div>
 
 <div class="home-section reveal">
-  <h2>Quick Impact</h2>
+  <h2>Credentials</h2>
   <div class="impact-grid">
     <div class="impact-card">
       <h3>Education</h3>
